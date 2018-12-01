@@ -1,0 +1,29 @@
+html {
+    background-color: #BED2FA;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 80px 20px;
+}
+
+.cover {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.content ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+.content li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.logo {
+    height: 44px;
+}
