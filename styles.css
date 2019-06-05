@@ -1,5 +1,25 @@
-html {
-    background-color: #BED2FA;
+.bg {
+    position: fixed;
+    top: -25%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000000;
+    z-index: -100;
+    overflow: hidden;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    min-width: 55%;
+    min-height: 55%;
+    -webkit-filter: blur(35px);
+    filter: blur(35px);
 }
 
 .content {
@@ -10,7 +30,6 @@ html {
 
 .cover {
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .content ul {
@@ -19,9 +38,17 @@ html {
     list-style: none;
 }
 
+.content ul {
+    background-color: #FFEAFF;
+    margin: 0 auto;
+}
+
 .content li {
-    display: inline;
-    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.content li:hover {
+    background-color: #FFD3FF;
 }
 
 .logo {
